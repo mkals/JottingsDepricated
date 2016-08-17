@@ -15,6 +15,10 @@
 		E93A37DF1D63F885007C2BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93A37DD1D63F885007C2BB2 /* LaunchScreen.storyboard */; };
 		E93A37EA1D63F885007C2BB2 /* JottingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A37E91D63F885007C2BB2 /* JottingsTests.swift */; };
 		E93A37F51D63F885007C2BB2 /* JottingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A37F41D63F885007C2BB2 /* JottingsUITests.swift */; };
+		E93A38061D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38021D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift */; };
+		E93A38071D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38031D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift */; };
+		E93A38081D63FB3A007C2BB2 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38041D63FB3A007C2BB2 /* Author+CoreDataClass.swift */; };
+		E93A38091D63FB3A007C2BB2 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38051D63FB3A007C2BB2 /* Author+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E93A37F01D63F885007C2BB2 /* JottingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JottingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93A37F41D63F885007C2BB2 /* JottingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JottingsUITests.swift; sourceTree = "<group>"; };
 		E93A37F61D63F885007C2BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93A38021D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Jotting+CoreDataClass.swift"; path = "Jottings/CoreData/Jotting+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E93A38031D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Jotting+CoreDataProperties.swift"; path = "Jottings/CoreData/Jotting+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E93A38041D63FB3A007C2BB2 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataClass.swift"; path = "Jottings/CoreData/Author+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E93A38051D63FB3A007C2BB2 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataProperties.swift"; path = "Jottings/CoreData/Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +113,7 @@
 				E93A37DB1D63F885007C2BB2 /* Assets.xcassets */,
 				E93A37DD1D63F885007C2BB2 /* LaunchScreen.storyboard */,
 				E93A37E01D63F885007C2BB2 /* Info.plist */,
-				E93A37D81D63F885007C2BB2 /* Jottings.xcdatamodeld */,
+				E93A380A1D63FB5C007C2BB2 /* CoreData */,
 			);
 			path = Jottings;
 			sourceTree = "<group>";
@@ -126,6 +134,19 @@
 				E93A37F61D63F885007C2BB2 /* Info.plist */,
 			);
 			path = JottingsUITests;
+			sourceTree = "<group>";
+		};
+		E93A380A1D63FB5C007C2BB2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E93A37D81D63F885007C2BB2 /* Jottings.xcdatamodeld */,
+				E93A38021D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift */,
+				E93A38031D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift */,
+				E93A38041D63FB3A007C2BB2 /* Author+CoreDataClass.swift */,
+				E93A38051D63FB3A007C2BB2 /* Author+CoreDataProperties.swift */,
+			);
+			name = CoreData;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93A38091D63FB3A007C2BB2 /* Author+CoreDataProperties.swift in Sources */,
+				E93A38081D63FB3A007C2BB2 /* Author+CoreDataClass.swift in Sources */,
+				E93A38071D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift in Sources */,
 				E93A37D41D63F885007C2BB2 /* ViewController.swift in Sources */,
+				E93A38061D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift in Sources */,
 				E93A37DA1D63F885007C2BB2 /* Jottings.xcdatamodeld in Sources */,
 				E93A37D21D63F885007C2BB2 /* AppDelegate.swift in Sources */,
 			);
@@ -540,7 +565,8 @@
 				E93A37D91D63F885007C2BB2 /* Jottings.xcdatamodel */,
 			);
 			currentVersion = E93A37D91D63F885007C2BB2 /* Jottings.xcdatamodel */;
-			path = Jottings.xcdatamodeld;
+			name = Jottings.xcdatamodeld;
+			path = Jottings/Jottings.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
