@@ -19,11 +19,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Terje Vigen" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H9E-pm-2Yf">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Terje Vigen" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H9E-pm-2Yf">
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ny0-HB-Zh5">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" keyboardDismissMode="interactive" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ny0-HB-Zh5" userLabel="Body Text Field">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Der bode en underlig gråsprængt en
 på den yderste nøgne ø; -
@@ -37,19 +37,33 @@ kom Terje Vigen nær.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W2I-3Q-kGQ" userLabel="Keyboard Placeholder">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="RlW-ur-DTi"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ny0-HB-Zh5" firstAttribute="leading" secondItem="5hx-Fb-PSQ" secondAttribute="leadingMargin" id="7ai-2O-9Xb"/>
                             <constraint firstItem="ny0-HB-Zh5" firstAttribute="trailing" secondItem="5hx-Fb-PSQ" secondAttribute="trailingMargin" id="DwQ-oM-Hu3"/>
                             <constraint firstItem="H9E-pm-2Yf" firstAttribute="leading" secondItem="5hx-Fb-PSQ" secondAttribute="leadingMargin" id="Ofu-SM-Uxd"/>
+                            <constraint firstItem="W2I-3Q-kGQ" firstAttribute="top" secondItem="ny0-HB-Zh5" secondAttribute="bottom" constant="8" symbolic="YES" id="Sc6-MB-SDF"/>
+                            <constraint firstItem="W2I-3Q-kGQ" firstAttribute="trailing" secondItem="5hx-Fb-PSQ" secondAttribute="trailingMargin" id="aI8-o5-KKG"/>
+                            <constraint firstItem="W2I-3Q-kGQ" firstAttribute="leading" secondItem="5hx-Fb-PSQ" secondAttribute="leadingMargin" id="bEB-y1-67w"/>
                             <constraint firstAttribute="trailingMargin" secondItem="H9E-pm-2Yf" secondAttribute="trailing" id="g0R-hW-uBY"/>
-                            <constraint firstItem="ny0-HB-Zh5" firstAttribute="top" secondItem="H9E-pm-2Yf" secondAttribute="bottom" constant="8" id="lho-Yq-b9s"/>
-                            <constraint firstItem="qV3-6b-6FV" firstAttribute="top" secondItem="ny0-HB-Zh5" secondAttribute="bottom" constant="20" id="tDM-Np-hVo"/>
-                            <constraint firstItem="H9E-pm-2Yf" firstAttribute="top" secondItem="X9f-EL-96k" secondAttribute="bottom" constant="8" id="xB0-8K-poB"/>
+                            <constraint firstItem="ny0-HB-Zh5" firstAttribute="top" secondItem="H9E-pm-2Yf" secondAttribute="bottom" constant="8" symbolic="YES" id="lho-Yq-b9s"/>
+                            <constraint firstItem="qV3-6b-6FV" firstAttribute="top" secondItem="W2I-3Q-kGQ" secondAttribute="bottom" constant="8" symbolic="YES" id="nSe-Eo-U7k"/>
+                            <constraint firstItem="H9E-pm-2Yf" firstAttribute="top" secondItem="X9f-EL-96k" secondAttribute="bottom" constant="8" symbolic="YES" id="xB0-8K-poB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PKX-Jc-xb9"/>
+                    <connections>
+                        <outlet property="bodyField" destination="ny0-HB-Zh5" id="uAw-5S-L0I"/>
+                        <outlet property="bottomHeight" destination="RlW-ur-DTi" id="i2C-ko-DiO"/>
+                        <outlet property="titleField" destination="H9E-pm-2Yf" id="BGV-3A-0I7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TMg-hn-hP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,7 +73,7 @@ kom Terje Vigen nær.</string>
         <scene sceneID="hNb-nP-qWi">
             <objects>
                 <navigationController id="376-iI-5Pd" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HQs-3m-ZCA">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="HQs-3m-ZCA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -80,7 +94,7 @@ kom Terje Vigen nær.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Tky-iP-wwI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Tky-iP-wwI">
                                 <frame key="frameInset" minY="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tky-iP-wwI" id="dcT-kI-zC9">
@@ -94,7 +108,9 @@ kom Terje Vigen nær.</string>
                             <outlet property="delegate" destination="HDn-dF-j2i" id="oe0-Ni-phn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="NrD-9w-JAL"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="NrD-9w-JAL">
+                        <barButtonItem key="rightBarButtonItem" title="A" id="nFb-Op-iUR"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="376-iI-5Pd" kind="showDetail" identifier="showDetail" id="0b5-VN-YKS">
                             <nil key="action"/>
@@ -109,7 +125,7 @@ kom Terje Vigen nær.</string>
         <scene sceneID="7QO-zL-e7s">
             <objects>
                 <navigationController id="Xni-yT-5sT" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ML6-ug-HnC">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ML6-ug-HnC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

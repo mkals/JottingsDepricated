@@ -9,10 +9,11 @@
         <attribute name="created" attributeType="String" syncable="YES"/>
         <attribute name="edited" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="title" attributeType="Date" usesScalarValueType="NO" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="history" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
         <relationship name="writer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="writing" inverseEntity="Author" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Jotting" positionX="-63" positionY="-18" width="128" height="120"/>
-        <element name="Author" positionX="-45" positionY="27" width="128" height="75"/>
+        <element name="Author" positionX="-765" positionY="-72" width="128" height="73"/>
+        <element name="Jotting" positionX="-578" positionY="-72" width="128" height="133"/>
     </elements>
 </model>

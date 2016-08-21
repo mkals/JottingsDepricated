@@ -20,6 +20,9 @@
 		E93A38081D63FB3A007C2BB2 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38041D63FB3A007C2BB2 /* Author+CoreDataClass.swift */; };
 		E93A38091D63FB3A007C2BB2 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38051D63FB3A007C2BB2 /* Author+CoreDataProperties.swift */; };
 		E93A380C1D6415CE007C2BB2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A380B1D6415CE007C2BB2 /* MasterViewController.swift */; };
+		E93A380E1D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */; };
+		E93A380F1D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */; };
+		E93A38101D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		E93A38041D63FB3A007C2BB2 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataClass.swift"; path = "Jottings/CoreData/Author+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E93A38051D63FB3A007C2BB2 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataProperties.swift"; path = "Jottings/CoreData/Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E93A380B1D6415CE007C2BB2 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 				E93A37DB1D63F885007C2BB2 /* Assets.xcassets */,
 				E93A37DD1D63F885007C2BB2 /* LaunchScreen.storyboard */,
 				E93A37E01D63F885007C2BB2 /* Info.plist */,
+				E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */,
 				E93A380A1D63FB5C007C2BB2 /* CoreData */,
 			);
 			path = Jottings;
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93A37DF1D63F885007C2BB2 /* LaunchScreen.storyboard in Resources */,
+				E93A380E1D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */,
 				E93A37DC1D63F885007C2BB2 /* Assets.xcassets in Resources */,
 				E93A37D71D63F885007C2BB2 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93A380F1D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93A38101D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
