@@ -4,16 +4,23 @@
         <attribute name="name" optional="YES" attributeType="String" spotlightIndexingEnabled="YES" syncable="YES"/>
         <relationship name="writing" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Jotting" inverseName="writer" inverseEntity="Jotting" syncable="YES"/>
     </entity>
-    <entity name="Jotting" representedClassName=".Jotting" syncable="YES">
+    <entity name="Jotting" syncable="YES">
+        <relationship name="history" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Version" inverseName="work" inverseEntity="Version" syncable="YES"/>
+        <relationship name="writer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="writing" inverseEntity="Author" syncable="YES"/>
+        <fetchedProperty name="current" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Jotting"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Version" representedClassName=".Jotting" syncable="YES">
         <attribute name="body" attributeType="String" syncable="YES"/>
         <attribute name="created" attributeType="String" syncable="YES"/>
         <attribute name="edited" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="title" attributeType="Date" usesScalarValueType="NO" spotlightIndexingEnabled="YES" syncable="YES"/>
-        <relationship name="history" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
-        <relationship name="writer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="writing" inverseEntity="Author" syncable="YES"/>
+        <relationship name="work" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jotting" inverseName="history" inverseEntity="Jotting" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Author" positionX="-765" positionY="-72" width="128" height="73"/>
-        <element name="Jotting" positionX="-578" positionY="-72" width="128" height="133"/>
+        <element name="Author" positionX="-855" positionY="-63" width="128" height="73"/>
+        <element name="Version" positionX="-497" positionY="-63" width="128" height="118"/>
+        <element name="Jotting" positionX="-675" positionY="-63" width="128" height="101"/>
     </elements>
 </model>
