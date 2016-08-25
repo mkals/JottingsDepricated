@@ -2,8 +2,11 @@
 //  Jotting+CoreDataProperties.swift
 //  Jottings
 //
-//  Created by Morten Kals on 16/08/2016.
+//  Created by Morten Kals on 25/08/2016.
 //  Copyright © 2016 Kals. All rights reserved.
+//
+//  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
+//  to delete and recreate this implementation file for your updated model.
 //
 
 import Foundation
@@ -11,14 +14,7 @@ import CoreData
 
 extension Jotting {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Jotting> {
-        return NSFetchRequest<Jotting>(entityName: "Jotting");
-    }
-
-    @NSManaged public var created: String?
-    @NSManaged public var edited: NSDate?
-    @NSManaged public var title: NSDate?
-    @NSManaged public var body: String?
-    @NSManaged public var writer: Author?
+    @NSManaged var history: NSOrderedSet?
+    @NSManaged var writer: Author?
 
 }

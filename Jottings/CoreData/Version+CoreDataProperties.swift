@@ -1,5 +1,5 @@
 //
-//  Author+CoreDataProperties.swift
+//  Version+CoreDataProperties.swift
 //  Jottings
 //
 //  Created by Morten Kals on 25/08/2016.
@@ -12,9 +12,13 @@
 import Foundation
 import CoreData
 
-extension Author {
+extension Version {
 
-    @NSManaged var name: String?
-    @NSManaged var writing: NSSet?
+    @NSManaged var body: String?
+    @NSManaged var created: String?
+    @NSManaged var edited: NSDate?
+    @NSManaged var title: NSDate?
+    @NSManaged var annotation: NSSet?
+    @NSManaged var work: Jotting?
 
 }

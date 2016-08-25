@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="16A304a" minimumToolsVersion="Automatic">
+    <entity name="Author" representedClassName=".Author" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="writing" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Jotting" inverseName="writer" inverseEntity="Jotting" syncable="YES"/>
+    </entity>
+    <entity name="Comment" representedClassName=".Comment" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="endIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="startIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="work" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Version" inverseName="annotation" inverseEntity="Version" syncable="YES"/>
+    </entity>
+    <entity name="Jotting" representedClassName=".Jotting" syncable="YES">
+        <relationship name="history" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Version" inverseName="work" inverseEntity="Version" syncable="YES"/>
+        <relationship name="writer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="writing" inverseEntity="Author" syncable="YES"/>
+    </entity>
+    <entity name="Version" representedClassName=".Version" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edited" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="Date" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <relationship name="annotation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Comment" inverseName="work" inverseEntity="Comment" syncable="YES"/>
+        <relationship name="work" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jotting" inverseName="history" inverseEntity="Jotting" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Author" positionX="-855" positionY="-63" width="128" height="73"/>
+        <element name="Comment" positionX="-317" positionY="-63" width="128" height="118"/>
+        <element name="Jotting" positionX="-684" positionY="-63" width="128" height="73"/>
+        <element name="Version" positionX="-506" positionY="-63" width="128" height="135"/>
+    </elements>
+</model>

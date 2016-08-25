@@ -1,5 +1,5 @@
 //
-//  Author+CoreDataProperties.swift
+//  Comment+CoreDataProperties.swift
 //  Jottings
 //
 //  Created by Morten Kals on 25/08/2016.
@@ -12,9 +12,12 @@
 import Foundation
 import CoreData
 
-extension Author {
+extension Comment {
 
-    @NSManaged var name: String?
-    @NSManaged var writing: NSSet?
+    @NSManaged var body: String?
+    @NSManaged var date: NSDate?
+    @NSManaged var endIndex: NSNumber?
+    @NSManaged var startIndex: NSNumber?
+    @NSManaged var work: Version?
 
 }

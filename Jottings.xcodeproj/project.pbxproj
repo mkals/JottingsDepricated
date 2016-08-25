@@ -10,19 +10,20 @@
 		E93A37D21D63F885007C2BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A37D11D63F885007C2BB2 /* AppDelegate.swift */; };
 		E93A37D41D63F885007C2BB2 /* DetiailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A37D31D63F885007C2BB2 /* DetiailViewController.swift */; };
 		E93A37D71D63F885007C2BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93A37D51D63F885007C2BB2 /* Main.storyboard */; };
-		E93A37DA1D63F885007C2BB2 /* Jottings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E93A37D81D63F885007C2BB2 /* Jottings.xcdatamodeld */; };
 		E93A37DC1D63F885007C2BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93A37DB1D63F885007C2BB2 /* Assets.xcassets */; };
 		E93A37DF1D63F885007C2BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93A37DD1D63F885007C2BB2 /* LaunchScreen.storyboard */; };
 		E93A37EA1D63F885007C2BB2 /* JottingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A37E91D63F885007C2BB2 /* JottingsTests.swift */; };
 		E93A37F51D63F885007C2BB2 /* JottingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A37F41D63F885007C2BB2 /* JottingsUITests.swift */; };
-		E93A38061D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38021D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift */; };
-		E93A38071D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38031D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift */; };
-		E93A38081D63FB3A007C2BB2 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38041D63FB3A007C2BB2 /* Author+CoreDataClass.swift */; };
-		E93A38091D63FB3A007C2BB2 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A38051D63FB3A007C2BB2 /* Author+CoreDataProperties.swift */; };
 		E93A380C1D6415CE007C2BB2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A380B1D6415CE007C2BB2 /* MasterViewController.swift */; };
-		E93A380E1D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */; };
-		E93A380F1D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */; };
-		E93A38101D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */; };
+		E98201C11D6F50500063D971 /* Jotting+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98201B91D6F50500063D971 /* Jotting+CoreDataProperties.swift */; };
+		E98201C21D6F50500063D971 /* Jotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98201BA1D6F50500063D971 /* Jotting.swift */; };
+		E98201C31D6F50500063D971 /* Comment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98201BB1D6F50500063D971 /* Comment+CoreDataProperties.swift */; };
+		E98201C41D6F50500063D971 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98201BC1D6F50500063D971 /* Comment.swift */; };
+		E98201C51D6F50500063D971 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98201BD1D6F50500063D971 /* Author+CoreDataProperties.swift */; };
+		E98201C61D6F50500063D971 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98201BE1D6F50500063D971 /* Author.swift */; };
+		E98201C71D6F50500063D971 /* Version+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98201BF1D6F50500063D971 /* Version+CoreDataProperties.swift */; };
+		E98201C81D6F50500063D971 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98201C01D6F50500063D971 /* Version.swift */; };
+		E9A7FE1A1D6ECE5E0004B12A /* Jottings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9A7FE181D6ECE5E0004B12A /* Jottings.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,6 @@
 		E93A37D11D63F885007C2BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E93A37D31D63F885007C2BB2 /* DetiailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetiailViewController.swift; sourceTree = "<group>"; };
 		E93A37D61D63F885007C2BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E93A37D91D63F885007C2BB2 /* Jottings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jottings.xcdatamodel; sourceTree = "<group>"; };
 		E93A37DB1D63F885007C2BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93A37DE1D63F885007C2BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93A37E01D63F885007C2BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,12 +57,16 @@
 		E93A37F01D63F885007C2BB2 /* JottingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JottingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93A37F41D63F885007C2BB2 /* JottingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JottingsUITests.swift; sourceTree = "<group>"; };
 		E93A37F61D63F885007C2BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E93A38021D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Jotting+CoreDataClass.swift"; path = "Jottings/CoreData/Jotting+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E93A38031D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Jotting+CoreDataProperties.swift"; path = "Jottings/CoreData/Jotting+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E93A38041D63FB3A007C2BB2 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataClass.swift"; path = "Jottings/CoreData/Author+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E93A38051D63FB3A007C2BB2 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataProperties.swift"; path = "Jottings/CoreData/Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E93A380B1D6415CE007C2BB2 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		E98201B91D6F50500063D971 /* Jotting+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Jotting+CoreDataProperties.swift"; path = "Jottings/CoreData/Jotting+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E98201BA1D6F50500063D971 /* Jotting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Jotting.swift; path = Jottings/CoreData/Jotting.swift; sourceTree = "<group>"; };
+		E98201BB1D6F50500063D971 /* Comment+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Comment+CoreDataProperties.swift"; path = "Jottings/CoreData/Comment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E98201BC1D6F50500063D971 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Jottings/CoreData/Comment.swift; sourceTree = "<group>"; };
+		E98201BD1D6F50500063D971 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Author+CoreDataProperties.swift"; path = "Jottings/CoreData/Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E98201BE1D6F50500063D971 /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Author.swift; path = Jottings/CoreData/Author.swift; sourceTree = "<group>"; };
+		E98201BF1D6F50500063D971 /* Version+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Version+CoreDataProperties.swift"; path = "Jottings/CoreData/Version+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E98201C01D6F50500063D971 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Jottings/CoreData/Version.swift; sourceTree = "<group>"; };
+		E9A7FE191D6ECE5E0004B12A /* Jottings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jottings.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +124,6 @@
 				E93A37DB1D63F885007C2BB2 /* Assets.xcassets */,
 				E93A37DD1D63F885007C2BB2 /* LaunchScreen.storyboard */,
 				E93A37E01D63F885007C2BB2 /* Info.plist */,
-				E93A380D1D6825A8007C2BB2 /* fontawesome-webfont.ttf */,
 				E93A380A1D63FB5C007C2BB2 /* CoreData */,
 			);
 			path = Jottings;
@@ -147,11 +150,15 @@
 		E93A380A1D63FB5C007C2BB2 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				E93A37D81D63F885007C2BB2 /* Jottings.xcdatamodeld */,
-				E93A38021D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift */,
-				E93A38031D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift */,
-				E93A38041D63FB3A007C2BB2 /* Author+CoreDataClass.swift */,
-				E93A38051D63FB3A007C2BB2 /* Author+CoreDataProperties.swift */,
+				E98201B91D6F50500063D971 /* Jotting+CoreDataProperties.swift */,
+				E98201BA1D6F50500063D971 /* Jotting.swift */,
+				E98201BB1D6F50500063D971 /* Comment+CoreDataProperties.swift */,
+				E98201BC1D6F50500063D971 /* Comment.swift */,
+				E98201BD1D6F50500063D971 /* Author+CoreDataProperties.swift */,
+				E98201BE1D6F50500063D971 /* Author.swift */,
+				E98201BF1D6F50500063D971 /* Version+CoreDataProperties.swift */,
+				E98201C01D6F50500063D971 /* Version.swift */,
+				E9A7FE181D6ECE5E0004B12A /* Jottings.xcdatamodeld */,
 			);
 			name = CoreData;
 			path = ..;
@@ -268,7 +275,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93A37DF1D63F885007C2BB2 /* LaunchScreen.storyboard in Resources */,
-				E93A380E1D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */,
 				E93A37DC1D63F885007C2BB2 /* Assets.xcassets in Resources */,
 				E93A37D71D63F885007C2BB2 /* Main.storyboard in Resources */,
 			);
@@ -278,7 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93A380F1D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +291,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93A38101D6825A8007C2BB2 /* fontawesome-webfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +301,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98201C11D6F50500063D971 /* Jotting+CoreDataProperties.swift in Sources */,
 				E93A380C1D6415CE007C2BB2 /* MasterViewController.swift in Sources */,
-				E93A38091D63FB3A007C2BB2 /* Author+CoreDataProperties.swift in Sources */,
-				E93A38081D63FB3A007C2BB2 /* Author+CoreDataClass.swift in Sources */,
-				E93A38071D63FB3A007C2BB2 /* Jotting+CoreDataProperties.swift in Sources */,
+				E98201C51D6F50500063D971 /* Author+CoreDataProperties.swift in Sources */,
 				E93A37D41D63F885007C2BB2 /* DetiailViewController.swift in Sources */,
-				E93A38061D63FB3A007C2BB2 /* Jotting+CoreDataClass.swift in Sources */,
-				E93A37DA1D63F885007C2BB2 /* Jottings.xcdatamodeld in Sources */,
+				E98201C61D6F50500063D971 /* Author.swift in Sources */,
+				E98201C41D6F50500063D971 /* Comment.swift in Sources */,
 				E93A37D21D63F885007C2BB2 /* AppDelegate.swift in Sources */,
+				E98201C71D6F50500063D971 /* Version+CoreDataProperties.swift in Sources */,
+				E9A7FE1A1D6ECE5E0004B12A /* Jottings.xcdatamodeld in Sources */,
+				E98201C21D6F50500063D971 /* Jotting.swift in Sources */,
+				E98201C81D6F50500063D971 /* Version.swift in Sources */,
+				E98201C31D6F50500063D971 /* Comment+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +559,7 @@
 				E93A37FB1D63F885007C2BB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E93A37FC1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "JottingsTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +568,7 @@
 				E93A37FE1D63F885007C2BB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E93A37FF1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "JottingsUITests" */ = {
 			isa = XCConfigurationList;
@@ -567,18 +577,19 @@
 				E93A38011D63F885007C2BB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E93A37D81D63F885007C2BB2 /* Jottings.xcdatamodeld */ = {
+		E9A7FE181D6ECE5E0004B12A /* Jottings.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E93A37D91D63F885007C2BB2 /* Jottings.xcdatamodel */,
+				E9A7FE191D6ECE5E0004B12A /* Jottings.xcdatamodel */,
 			);
-			currentVersion = E93A37D91D63F885007C2BB2 /* Jottings.xcdatamodel */;
+			currentVersion = E9A7FE191D6ECE5E0004B12A /* Jottings.xcdatamodel */;
 			name = Jottings.xcdatamodeld;
-			path = Jottings/Jottings.xcdatamodeld;
+			path = Jottings/CoreData/Jottings.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
