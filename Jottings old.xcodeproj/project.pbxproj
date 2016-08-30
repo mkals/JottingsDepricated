@@ -44,17 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E93A37CE1D63F885007C2BB2 /* Jottings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jottings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93A37CE1D63F885007C2BB2 /* Jottings old.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jottings old.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93A37D11D63F885007C2BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E93A37D31D63F885007C2BB2 /* DetiailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetiailViewController.swift; sourceTree = "<group>"; };
 		E93A37D61D63F885007C2BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E93A37DB1D63F885007C2BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93A37DE1D63F885007C2BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93A37E01D63F885007C2BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E93A37E51D63F885007C2BB2 /* JottingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JottingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93A37E51D63F885007C2BB2 /* Jottings old.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jottings old.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93A37E91D63F885007C2BB2 /* JottingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JottingsTests.swift; sourceTree = "<group>"; };
 		E93A37EB1D63F885007C2BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E93A37F01D63F885007C2BB2 /* JottingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JottingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93A37F01D63F885007C2BB2 /* Jottings old.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jottings old.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93A37F41D63F885007C2BB2 /* JottingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JottingsUITests.swift; sourceTree = "<group>"; };
 		E93A37F61D63F885007C2BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E93A380B1D6415CE007C2BB2 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -107,9 +107,9 @@
 		E93A37CF1D63F885007C2BB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E93A37CE1D63F885007C2BB2 /* Jottings.app */,
-				E93A37E51D63F885007C2BB2 /* JottingsTests.xctest */,
-				E93A37F01D63F885007C2BB2 /* JottingsUITests.xctest */,
+				E93A37CE1D63F885007C2BB2 /* Jottings old.app */,
+				E93A37E51D63F885007C2BB2 /* Jottings old.xctest */,
+				E93A37F01D63F885007C2BB2 /* Jottings old.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,9 +167,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E93A37CD1D63F885007C2BB2 /* Jottings */ = {
+		E93A37CD1D63F885007C2BB2 /* Jottings old */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E93A37F91D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "Jottings" */;
+			buildConfigurationList = E93A37F91D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "Jottings old" */;
 			buildPhases = (
 				E93A37CA1D63F885007C2BB2 /* Sources */,
 				E93A37CB1D63F885007C2BB2 /* Frameworks */,
@@ -179,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = Jottings;
+			name = "Jottings old";
 			productName = Jottings;
-			productReference = E93A37CE1D63F885007C2BB2 /* Jottings.app */;
+			productReference = E93A37CE1D63F885007C2BB2 /* Jottings old.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E93A37E41D63F885007C2BB2 /* JottingsTests */ = {
+		E93A37E41D63F885007C2BB2 /* Jottings oldTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E93A37FC1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "JottingsTests" */;
+			buildConfigurationList = E93A37FC1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "Jottings oldTests" */;
 			buildPhases = (
 				E93A37E11D63F885007C2BB2 /* Sources */,
 				E93A37E21D63F885007C2BB2 /* Frameworks */,
@@ -197,14 +197,14 @@
 			dependencies = (
 				E93A37E71D63F885007C2BB2 /* PBXTargetDependency */,
 			);
-			name = JottingsTests;
+			name = "Jottings oldTests";
 			productName = JottingsTests;
-			productReference = E93A37E51D63F885007C2BB2 /* JottingsTests.xctest */;
+			productReference = E93A37E51D63F885007C2BB2 /* Jottings old.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E93A37EF1D63F885007C2BB2 /* JottingsUITests */ = {
+		E93A37EF1D63F885007C2BB2 /* Jottings oldUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E93A37FF1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "JottingsUITests" */;
+			buildConfigurationList = E93A37FF1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "Jottings oldUITests" */;
 			buildPhases = (
 				E93A37EC1D63F885007C2BB2 /* Sources */,
 				E93A37ED1D63F885007C2BB2 /* Frameworks */,
@@ -215,9 +215,9 @@
 			dependencies = (
 				E93A37F21D63F885007C2BB2 /* PBXTargetDependency */,
 			);
-			name = JottingsUITests;
+			name = "Jottings oldUITests";
 			productName = JottingsUITests;
-			productReference = E93A37F01D63F885007C2BB2 /* JottingsUITests.xctest */;
+			productReference = E93A37F01D63F885007C2BB2 /* Jottings old.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E93A37C91D63F885007C2BB2 /* Build configuration list for PBXProject "Jottings" */;
+			buildConfigurationList = E93A37C91D63F885007C2BB2 /* Build configuration list for PBXProject "Jottings old" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -262,9 +262,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E93A37CD1D63F885007C2BB2 /* Jottings */,
-				E93A37E41D63F885007C2BB2 /* JottingsTests */,
-				E93A37EF1D63F885007C2BB2 /* JottingsUITests */,
+				E93A37CD1D63F885007C2BB2 /* Jottings old */,
+				E93A37E41D63F885007C2BB2 /* Jottings oldTests */,
+				E93A37EF1D63F885007C2BB2 /* Jottings oldUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,12 +337,12 @@
 /* Begin PBXTargetDependency section */
 		E93A37E71D63F885007C2BB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E93A37CD1D63F885007C2BB2 /* Jottings */;
+			target = E93A37CD1D63F885007C2BB2 /* Jottings old */;
 			targetProxy = E93A37E61D63F885007C2BB2 /* PBXContainerItemProxy */;
 		};
 		E93A37F21D63F885007C2BB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E93A37CD1D63F885007C2BB2 /* Jottings */;
+			target = E93A37CD1D63F885007C2BB2 /* Jottings old */;
 			targetProxy = E93A37F11D63F885007C2BB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -468,7 +468,7 @@
 				INFOPLIST_FILE = Jottings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.kals.Jottings;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Jottings old";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -481,7 +481,7 @@
 				INFOPLIST_FILE = Jottings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.kals.Jottings;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Jottings old";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -494,9 +494,9 @@
 				INFOPLIST_FILE = JottingsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.kals.JottingsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Jottings old";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jottings.app/Jottings";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jottings old.app/Jottings old";
 			};
 			name = Debug;
 		};
@@ -508,9 +508,9 @@
 				INFOPLIST_FILE = JottingsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.kals.JottingsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Jottings old";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jottings.app/Jottings";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jottings old.app/Jottings old";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 				INFOPLIST_FILE = JottingsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.kals.JottingsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Jottings old";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Jottings;
 			};
@@ -534,7 +534,7 @@
 				INFOPLIST_FILE = JottingsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.kals.JottingsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Jottings old";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Jottings;
 			};
@@ -543,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E93A37C91D63F885007C2BB2 /* Build configuration list for PBXProject "Jottings" */ = {
+		E93A37C91D63F885007C2BB2 /* Build configuration list for PBXProject "Jottings old" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E93A37F71D63F885007C2BB2 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E93A37F91D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "Jottings" */ = {
+		E93A37F91D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "Jottings old" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E93A37FA1D63F885007C2BB2 /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E93A37FC1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "JottingsTests" */ = {
+		E93A37FC1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "Jottings oldTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E93A37FD1D63F885007C2BB2 /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E93A37FF1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "JottingsUITests" */ = {
+		E93A37FF1D63F885007C2BB2 /* Build configuration list for PBXNativeTarget "Jottings oldUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E93A38001D63F885007C2BB2 /* Debug */,

@@ -12,7 +12,6 @@ import CoreData
 
 class Jotting: NSManagedObject {
 
-    func init(title: )
 // Insert code here to add functionality to your managed object subclass
 
 }

@@ -21,6 +21,7 @@ class Comment: NSManagedObject {
     //        @NSManaged var work: Version?
     
     init(body: String, startIndex: Int, endIndex: Int) {
+        super.init(entity: <#T##NSEntityDescription#>, insertInto: <#T##NSManagedObjectContext?#>)
         self.body = body
         self.startIndex = startIndex
         self.endIndex = endIndex
